@@ -25,5 +25,5 @@ Enter a word: virus
 """
 lis = []
 for x in range(5):
-    lis.append(input("Give me a word "))
+    lis.append(input("Give me a word ").strip())
 print(lis)
