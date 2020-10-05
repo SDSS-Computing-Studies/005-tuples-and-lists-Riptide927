@@ -13,4 +13,9 @@ example:
 The smallest number is 3 and the largest number is 9
 """
 
-myList = [ 3,6,5,4,6,7,8,6,5,9,4,5 ]
+mylist = [ 3,6,5,4,6,7,8,6,5,9,4,5 ]
+
+mylist.sort()
+x=mylist[0]
+y=mylist[len(mylist)-1]
+print("The smallest number is "+ str(x) + " and the largest number is "+ str(y))

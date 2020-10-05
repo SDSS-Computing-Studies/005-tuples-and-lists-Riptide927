@@ -23,3 +23,7 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
+lis = []
+for x in range(5):
+    lis.append(input("Give me a word "))
+print(lis)
