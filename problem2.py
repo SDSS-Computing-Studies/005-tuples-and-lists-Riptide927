@@ -28,7 +28,7 @@ fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry
 
 print(fruit)
 loop=0
-x= input("enter a fruit: ")
+x= input("enter a fruit: ").strip()
 if x in fruit:
     for y in range(len(fruit)):
         if x in fruit:
